@@ -15,7 +15,7 @@ const About = () => {
         About Me
       </h2>
       <div className="md:flex justify-between ">
-        <div className="md:w-1/2 text-center md:text-left md:mr-10">
+        <div className="md:w-1/2 text-center md:text-left md:mr-10 p-5 xl:p-0">
           <h2 className="lg:text-3xl text-2xl pb-1 font-semibold text-white">
             Mohammad Ammar Uddin
           </h2>
@@ -36,7 +36,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="md:w-1/2 pt-10 md:pt-0 md:text-left text-center">
+        <div className="md:w-1/2 pt-10 md:pt-0 md:text-left text-center p-5 md:p-0">
           <h2 className="lg:text-3xl text-2xl pb-1 font-semibold text-white pb-8">
             Education
           </h2>
@@ -58,7 +58,7 @@ const About = () => {
           SKILLS
         </h2>
 
-        <div className="lg:flex justify-evenly grid grid-cols-2 pl-20   gap-3 pt-2">
+        <div className="lg:flex justify-evenly grid grid-cols-2 pl-20 lg:pl-0   gap-3 pt-2">
           <div>
             {" "}
             <IoLogoHtml5 className="text-sky-400" size={50} />
@@ -124,7 +124,7 @@ const About = () => {
           <h2 className="lg:text-3xl text-center text-2xl pt-8 font-semibold text-white pb-8">
             TOOLS
           </h2>
-          <div className="flex justify-around pt-4 pb-3">
+          <div className="lg:flex justify-around grid grid-cols-2 gap-4 p-3 pt-4 pb-3">
           
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
