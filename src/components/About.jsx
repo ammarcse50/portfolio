@@ -23,7 +23,7 @@ import { FiFigma } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div name="about" className="mt-32 mb-10">
+    <div name="about" className="pt-32 mb-10">
       <h2 className="text-center text-4xl mb-10 font-semibold text-sky-500">
         About Me
       </h2>

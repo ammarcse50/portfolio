@@ -7,7 +7,7 @@ const Header = () => {
     <div
      name="home"
       
-      className="md:flex space-y-20   md:justify-between  items-center mt-20  "
+      className="md:flex space-y-20   md:justify-between  items-center pt-20 mb-10  "
     >
       <div className="md:w-1/2 md:p-4 space-y-9 text-center md:text-left">
         <h2 className="lg:text-2xl text-3xl font-bold text-white">

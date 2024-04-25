@@ -8,21 +8,21 @@ const Navbar = () => {
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">Home</a>
         </li>{" "}
       </Link>
-      <Link to="about" spy={true} smooth={true} offset={-100} duration={500}>
+      <Link to="about" spy={true} smooth={true} offset={-30} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
             About Me
           </a>
         </li>{" "}
       </Link>
-      <Link to="services" spy={true} smooth={true} offset={-100} duration={500}>
+      <Link to="services" spy={true} smooth={true} offset={-30} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
             Services
           </a>
         </li>{" "}
       </Link>
-      <Link to="service" spy={true} smooth={true} offset={-100} duration={500}>
+      <Link to="portfolio" spy={true} smooth={true} offset={-100} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
             Portfolio

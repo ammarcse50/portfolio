@@ -3,7 +3,7 @@ import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const Services = () => {
   return (
-    <div name="services">
+    <div name="services" className="pt-32 ">
       <h2 className="text-center text-4xl mb-10 font-semibold text-sky-500">
         My Services
       </h2>
@@ -47,7 +47,7 @@ const Services = () => {
         </div>
         <div className="lg:w-1/2 h-full w-full  hover:outline hover:outline-[#00eeff] bg-gray-700 p-5 rounded-t-lg space-y-2">
           <h2 className="text-sky-500 text-3xl font-semibold mb-6">
-            Beckend Services
+            Backend Services
           </h2>
 
           <span className="flex text-white">
