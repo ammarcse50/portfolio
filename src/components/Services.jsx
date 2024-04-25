@@ -3,10 +3,11 @@ import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const Services = () => {
   return (
-    <div name="services" className="pt-32 ">
+    <div name="services" className="pt-32 p-4">
       <h2 className="text-center text-4xl mb-10 font-semibold text-sky-500">
         My Services
       </h2>
+      
       <span>
         <hr className="mb-6" />
       </span>

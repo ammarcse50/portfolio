@@ -3,7 +3,7 @@ import React from 'react';
 const ProjectCard = ({data}) => {
     const {img,title,desc,link1,link2}=data;
     return (
- <div className="card card-compact xl:w-96 bg-base-100 shadow-xl hover:shadow-lg hover:shadow-[#00eeff] ">
+ <div className="card card-compact xl:w-96 xl:p-3 bg-base-100 shadow-xl hover:shadow-lg hover:shadow-[#00eeff] ">
   <figure><img src={data.img} className='' /></figure>
   <div className="card-body">
     <h2 className="card-title">{data.title}</h2>

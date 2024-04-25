@@ -51,7 +51,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="md:w-1/2 pt-10 md:pt-0 md:text-left text-center p-5 md:p-0">
+        <div className="md:w-1/2 pt-10 md:pt-0 md:text-left text-center lg:p-5 xl:p-0 md:p-0">
           <h2 className="lg:text-3xl text-2xl pb-1 font-semibold text-white pb-8">
             Education
           </h2>
@@ -68,7 +68,7 @@ const About = () => {
 
       {/* TEXT END  */}
 
-      <div className="pt-20 ">
+      <div className="pt-20 lg:p-4 ">
         <h2 className="lg:text-3xl text-center text-2xl pb-1 font-semibold text-white pb-8">
           SKILLS
         </h2>
