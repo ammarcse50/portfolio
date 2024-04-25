@@ -22,7 +22,7 @@ function App() {
         <Contact></Contact>
       </div>
       <Footer></Footer>
-      <ScrollToTop className="bg-[#00eeff]" color="black" style={{
+      <ScrollToTop  className="bg-[#00eeff] hidden lg:flex items-center justify-center " color="black" style={{
   width: '50px',
   height: '50px',
   borderRadius: '50%',
