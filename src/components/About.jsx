@@ -1,7 +1,20 @@
 import { BiLogoTailwindCss } from "react-icons/bi";
 
-import { FaBootstrap, FaChrome, FaGithub, FaNode, FaNodeJs, FaReact, FaRobot } from "react-icons/fa";
-import { IoLogoCss3, IoLogoHtml5, IoLogoJavascript, IoLogoNpm } from "react-icons/io";
+import {
+  FaBootstrap,
+  FaChrome,
+  FaGithub,
+  FaNode,
+  FaNodeJs,
+  FaReact,
+  FaRobot,
+} from "react-icons/fa";
+import {
+  IoLogoCss3,
+  IoLogoHtml5,
+  IoLogoJavascript,
+  IoLogoNpm,
+} from "react-icons/io";
 
 import { IoLogoFirebase, IoTerminal } from "react-icons/io5";
 import { SiAdobephotoshop, SiMongodb } from "react-icons/si";
@@ -53,7 +66,7 @@ const About = () => {
 
       {/* TEXT END  */}
 
-      <div className="pt-20">
+      <div className="pt-20 ">
         <h2 className="lg:text-3xl text-center text-2xl pb-1 font-semibold text-white pb-8">
           SKILLS
         </h2>
@@ -125,69 +138,44 @@ const About = () => {
             TOOLS
           </h2>
           <div className="lg:flex justify-around grid grid-cols-2 gap-4 p-3 pt-4 pb-3">
-          
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <TbBrandVscode
-                size={40}
-                className=" text-[#00eeef] "
-              />
+              <TbBrandVscode size={40} className=" text-[#00eeef] " />
               <span>VS Code</span>
             </div>
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <FaChrome
-                size={40}
-                className=" text-[#00eeef] "
-              />
+              <FaChrome size={40} className=" text-[#00eeef] " />
               <span>Chrome</span>
             </div>
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <FaGithub
-                size={40}
-                className=" text-[#00eeef] "
-              />
+              <FaGithub size={40} className=" text-[#00eeef] " />
               <span>Github</span>
             </div>
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <FiFigma
-                size={40}
-                className=" text-[#00eeef] "
-              />
+              <FiFigma size={40} className=" text-[#00eeef] " />
               <span>Figma</span>
             </div>
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <IoLogoNpm 
-                size={40}
-                className=" text-[#00eeef] "
-              />
+              <IoLogoNpm size={40} className=" text-[#00eeef] " />
               <span>NPM</span>
             </div>
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <SiAdobephotoshop
-                size={40}
-                className=" text-[#00eeef] "
-              />
+              <SiAdobephotoshop size={40} className=" text-[#00eeef] " />
               <span>Photoshop</span>
             </div>
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <FaRobot 
-                size={40}
-                className=" text-[#00eeef] "
-              />
+              <FaRobot size={40} className=" text-[#00eeef] " />
               <span>Ai</span>
             </div>
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <IoTerminal
-                size={40}
-                className=" text-[#00eeef] "
-              />
+              <IoTerminal size={40} className=" text-[#00eeef] " />
               <span>Terminal</span>
             </div>
           </div>

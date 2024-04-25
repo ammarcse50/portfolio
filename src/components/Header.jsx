@@ -5,7 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 const Header = () => {
   return (
     <div
-    
+     name="home"
       
       className="md:flex space-y-20   md:justify-between  items-center mt-20  "
     >
