@@ -58,7 +58,7 @@ const About = () => {
           SKILLS
         </h2>
 
-        <div className="lg:flex justify-evenly grid grid-cols-2 pl-20 lg:pl-0   gap-3 pt-2">
+        <div className="lg:flex justify-evenly grid grid-cols-2   gap-x-20 lg:gap-x-0 ml-20  md:ml-44 lg:ml-0  gap-3 pt-2">
           <div>
             {" "}
             <IoLogoHtml5 className="text-sky-400" size={50} />
@@ -76,13 +76,13 @@ const About = () => {
           </div>
           <div>
             {" "}
-            <FaBootstrap className="text-sky-400 ml-4" size={50} />
-            <span className="pl-1 font-semibold">Bootstrap</span>
+            <FaBootstrap className="text-sky-400 " size={50} />
+            <span className=" font-semibold">Bootstrap</span>
           </div>
           <div>
             {" "}
             <TbBrandJavascript className="text-sky-400 " size={50} />
-            <span className="pl-1 font-semibold">JavaScript</span>
+            <span className="font-semibold">JavaScript</span>
           </div>
           <div>
             {" "}

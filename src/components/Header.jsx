@@ -9,7 +9,7 @@ const Header = () => {
       
       className="md:flex space-y-20   md:justify-between  items-center mt-20  "
     >
-      <div className="md:w-1/2 space-y-9 text-center md:text-left">
+      <div className="md:w-1/2 md:p-4 space-y-9 text-center md:text-left">
         <h2 className="lg:text-2xl text-3xl font-bold text-white">
           Hello, I'm <br />
           <span className="lg:text-3xl  text-3xl text-[#00eeff]">
@@ -74,8 +74,8 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <div className="w-1/3 mx-auto">
-        <img src={dp} alt="" width={350} />
+      <div className="md:w-1/3 p-5 mx-auto rounded-full">
+        <img src={dp} className="rounded-lg " alt=""  />
       </div>
     </div>
   );
