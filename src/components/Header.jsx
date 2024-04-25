@@ -52,6 +52,13 @@ const Header = () => {
           <FaGithub className="text-4xl text-sky-500 hover:text-[#00eeff]" />
           <FaWhatsapp className="text-4xl text-sky-500 hover:text-[#00eeff]" />
         </div>
+        <div>
+          <a href="/resume.pdf" download={true}>
+            <button className="btn font-semibold text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">
+              Download CV
+            </button>
+          </a>
+        </div>
       </div>
       <div className="w-1/3 mx-auto">
         <img src={dp} alt="" width={350} />

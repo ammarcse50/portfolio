@@ -61,8 +61,8 @@ const Navbar = () => {
             {navlinks}
           </ul>
         </div>
-        <a className="btn btn-ghost text-4xl font-signature text-sky-500 ">
-          Ammar
+        <a className="btn btn-ghost text-5xl font-signature text-sky-500 ">
+          A <span className="text-white">mmar</span>
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
