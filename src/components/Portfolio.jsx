@@ -2,8 +2,8 @@ import React from 'react';
 
 const Portfolio = () => {
     return (
-        <div className='' name="portfolio">
-            
+        <div name="portfolio">
+            <h2>Portfolio</h2>
         </div>
     );
 };

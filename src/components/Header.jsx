@@ -29,7 +29,7 @@ const Header = () => {
             ]}
             wrapper="span"
             speed={50}
-            className="text-3xl md:text-5xl"
+            className="text-3xl xl:text-5xl"
             style={{
               //   fontSize: "3rem",
               fontWeight: "font-bold",

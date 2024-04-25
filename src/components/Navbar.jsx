@@ -1,43 +1,52 @@
-
 import { Link } from "react-scroll";
-   
-  
+
 const Navbar = () => {
-          
-       
   const navlinks = (
     <>
       <Link to="home">
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black">Home</a>
+          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">Home</a>
         </li>{" "}
       </Link>
       <Link to="about">
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black">About Me</a>
+          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
+            About Me
+          </a>
         </li>{" "}
       </Link>
       <Link to="service">
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black">Portfolio</a>
+          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
+          Service
+          </a>
         </li>{" "}
       </Link>
       <Link to="service">
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black">Service</a>
+          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
+             Portfolio
+          </a>
         </li>{" "}
       </Link>
       <Link to="contact">
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black">Contact</a>
+          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
+            Contact
+          </a>
         </li>{" "}
       </Link>
     </>
   );
   return (
-    <div name="home" className="navbar bg-base-100">
-      <div className="navbar-start">
-        <div className="dropdown">
+    <div
+      name="home"
+      className="fixed top-0 z-10 w-full py-4  bg-base-100 shadow-lg  "
+    >
+     <div className="flex justify-between max-w-6xl mx-auto">
+
+     <div className="">
+        <div className="dropdown ">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,13 +70,15 @@ const Navbar = () => {
             {navlinks}
           </ul>
         </div>
-        <a className="btn btn-ghost text-5xl font-signature text-sky-500 ">
+        <a className="px-3 hover:animate-pulse transition duration-1000 hover:text-[#00eeff] rounded-xl text-5xl font-bold font-signature text-sky-500 ">
           A <span className="text-white">mmar</span>
         </a>
       </div>
-      <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">{navlinks}</ul>
+      <div className="hidden lg:flex ">
+        <ul className="menu menu-horizontal">{navlinks}</ul>
       </div>
+     </div>
+     
     </div>
   );
 };
