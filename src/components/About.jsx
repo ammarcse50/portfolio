@@ -138,42 +138,42 @@ const About = () => {
             TOOLS
           </h2>
           <div className="lg:flex justify-around grid grid-cols-2 gap-4 p-3 pt-4 pb-3">
-            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff] hover:outline hover:outline-[#00eeff]">
               {" "}
               <TbBrandVscode size={40} className=" text-[#00eeef] " />
               <span>VS Code</span>
             </div>
-            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff]  hover:outline hover:outline-[#00eeff]">
               {" "}
               <FaChrome size={40} className=" text-[#00eeef] " />
               <span>Chrome</span>
             </div>
-            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:shadow-lg hover:shadow-[#00eeff] hover:outline hover:outline-[#00eeff]">
               {" "}
               <FaGithub size={40} className=" text-[#00eeef] " />
               <span>Github</span>
             </div>
-            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff] hover:outline hover:outline-[#00eeff]">
               {" "}
               <FiFigma size={40} className=" text-[#00eeef] " />
               <span>Figma</span>
             </div>
-            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff]  hover:outline hover:outline-[#00eeff]">
               {" "}
               <IoLogoNpm size={40} className=" text-[#00eeef] " />
               <span>NPM</span>
             </div>
-            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff] hover:outline hover:outline-[#00eeff]">
               {" "}
               <SiAdobephotoshop size={40} className=" text-[#00eeef] " />
               <span>Photoshop</span>
             </div>
-            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff] hover:outline hover:outline-[#00eeff]">
               {" "}
               <FaRobot size={40} className=" text-[#00eeef] " />
               <span>Ai</span>
             </div>
-            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center  hover:outline hover:outline-[#00eeff]">
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff]  hover:outline hover:outline-[#00eeff]">
               {" "}
               <IoTerminal size={40} className=" text-[#00eeef] " />
               <span>Terminal</span>

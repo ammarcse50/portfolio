@@ -68,9 +68,9 @@ const Navbar = () => {
           </div>
           <a
             href="home"
-            className="px-3 hover:animate-pulse transition duration-1000 hover:text-[#00eeff] rounded-xl text-5xl font-bold font-signature text-sky-500 "
+            className="px-3   hover:animate-pulse transition duration-1000 hover:text-[#00eeff] rounded-xl text-5xl font-bold font-signature text-sky-500 "
           >
-            A <span className="text-white">mmar</span>
+            A <span className="text-white ">mmar</span>
           </a>
         </div>
         <div className="hidden lg:flex ">

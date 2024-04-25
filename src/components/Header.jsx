@@ -47,28 +47,28 @@ const Header = () => {
         </p>
 
         <div className="social flex justify-center md:justify-start gap-6 ">
-          <a href="https://www.linkedin.com/in/mohammad-ammar-96b551254/">
+          <a className="" href="https://www.linkedin.com/in/mohammad-ammar-96b551254/">
           
-            <FaLinkedin className="text-4xl text-sky-500 hover:text-[#00eeff]" />{" "}
+            <FaLinkedin className="text-4xl text-sky-500 hover:text-[#00eeff] hover:shadow-xl hover:shadow-[#00eeff] " />{" "}
           </a>
 
           <a href="https://www.facebook.com/profile.php?id=61551789883517">
           
-            <FaFacebook className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+            <FaFacebook className="text-4xl text-sky-500 hover:text-[#00eeff] hover:shadow-xl hover:shadow-[#00eeff]" />
           </a>
           <a href="https://github.com/ammarcse50">
           
-            <FaGithub className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+            <FaGithub className="text-4xl text-sky-500 hover:text-[#00eeff] hover:shadow-xl hover:shadow-[#00eeff]" />
           </a>
 
           <a href="https://api.whatsapp.com/send?phone=8801883128299">
           
-            <FaWhatsapp className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+            <FaWhatsapp className="text-4xl text-sky-500 hover:text-[#00eeff] hover:shadow-xl hover:shadow-[#00eeff]" />
           </a>
         </div>
         <div>
           <a href="/resume.pdf" download={true}>
-            <button className="btn font-semibold text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">
+            <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">
               Download CV
             </button>
           </a>
