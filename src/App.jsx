@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import ScrollToTop from "react-scroll-to-top";
+import { FaBold } from "react-icons/fa";
 
 function App() {
   return (
@@ -20,6 +22,14 @@ function App() {
         <Contact></Contact>
       </div>
       <Footer></Footer>
+      <ScrollToTop className="bg-[#00eeff]" color="black" style={{
+  width: '50px',
+  height: '50px',
+  borderRadius: '50%',
+  boxShadow: '0 0px 30px #00eeff',
+  
+  // Add more styles as needed
+}} smooth />
     </div>
   );
 }

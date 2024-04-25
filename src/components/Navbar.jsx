@@ -29,7 +29,7 @@ const Navbar = () => {
           </a>
         </li>{" "}
       </Link>
-      <Link to="contact" spy={true} smooth={true} offset={-100} duration={500}>
+      <Link to="contact" spy={true} smooth={true} offset={-10} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
             Contact
