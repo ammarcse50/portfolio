@@ -1,0 +1,63 @@
+import { FaFacebook, FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import dp from "/dp.png";
+import { TypeAnimation } from "react-type-animation";
+
+const Header = () => {
+  return (
+    <div
+      name="home"
+      id="home"
+      className="md:flex space-y-20   md:justify-between  items-center mt-20  "
+    >
+      <div className="md:w-1/2 space-y-9 text-center md:text-left">
+        <h2 className="lg:text-2xl text-3xl font-bold text-white">
+          Hello, I'm <br />
+          <span className="lg:text-3xl  text-3xl text-[#00eeff]">
+            Mohammad Ammar Uddin
+          </span>
+        </h2>
+        <span className="">
+          <TypeAnimation
+            sequence={[
+              // Same substring at the start will only be typed out once, initially
+              "WEB DEVELOPER",
+              1000, // wait 1s before replacing "Mice" with "Hamsters"
+              "ETHICAL HACKER",
+              1000,
+              "GRAPHICS DESIGNER",
+              1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            className="text-3xl md:text-5xl"
+            style={{
+              //   fontSize: "3rem",
+              fontWeight: "font-bold",
+              display: "inline-block",
+              color: "#00eeff",
+            }}
+            repeat={Infinity}
+          />
+        </span>
+
+        <p className="text-gray-400">
+          Fullstack web developer skilled in ReactJS, MongoDB, Express, and
+          NodeJS. I am also well-versed in core concepts of competitive
+          programming.
+        </p>
+
+        <div className="social flex justify-center md:justify-start gap-6 ">
+          <FaLinkedin className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+          <FaFacebook className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+          <FaGithub className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+          <FaWhatsapp className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+        </div>
+      </div>
+      <div className="w-1/3 mx-auto">
+        <img src={dp} alt="" width={350} />
+      </div>
+    </div>
+  );
+};
+
+export default Header;
