@@ -1,4 +1,4 @@
-import { BiLogoTailwindCss } from "react-icons/bi";
+import { BiLogoNetlify, BiLogoTailwindCss } from "react-icons/bi";
 
 import {
   FaBootstrap,
@@ -20,6 +20,8 @@ import { IoLogoFirebase, IoTerminal } from "react-icons/io5";
 import { SiAdobephotoshop, SiMongodb } from "react-icons/si";
 import { TbBrandJavascript, TbBrandVscode } from "react-icons/tb";
 import { FiFigma } from "react-icons/fi";
+import { FcLinux } from "react-icons/fc";
+import { DiLinux } from "react-icons/di";
 
 const About = () => {
   return (
@@ -71,7 +73,7 @@ const About = () => {
           SKILLS
         </h2>
 
-        <div className="lg:flex justify-evenly grid grid-cols-2   gap-x-20 lg:gap-x-0 ml-20  md:ml-44 lg:ml-0  gap-3 pt-2">
+        <div className="lg:flex justify-between  grid grid-cols-2  gap-x-20 lg:gap-x-0 ml-20  md:ml-44 lg:ml-0  gap-3 pt-2">
           <div>
             {" "}
             <IoLogoHtml5 className="text-sky-400" size={50} />
@@ -127,6 +129,11 @@ const About = () => {
             <FaNode className="text-sky-400 " size={50} />
             <span className=" font-semibold ">NodeJS</span>
           </div>
+          <div>
+            {" "}
+            <DiLinux className="text-sky-400 " size={50} />
+            <span className=" font-semibold ">Linux</span>
+          </div>
         </div>
 
         {/* skills ended  */}
@@ -173,10 +180,16 @@ const About = () => {
               <FaRobot size={40} className=" text-[#00eeef] " />
               <span>Ai</span>
             </div>
+         
             <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff]  hover:outline hover:outline-[#00eeff]">
               {" "}
-              <IoTerminal size={40} className=" text-[#00eeef] " />
-              <span>Terminal</span>
+              <BiLogoNetlify  size={40} className=" text-[#00eeef] " />
+              <span>Netlify</span>
+            </div>
+            <div className="bg-gray-700 rounded-xl p-3 flex flex-col items-center justify-center hover:shadow-lg hover:shadow-[#00eeff]  hover:outline hover:outline-[#00eeff]">
+              {" "}
+              <DiLinux  size={40} className=" text-[#00eeef] " />
+              <span>Linux</span>
             </div>
           </div>
         </div>

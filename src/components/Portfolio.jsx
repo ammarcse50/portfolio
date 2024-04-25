@@ -14,7 +14,7 @@ const Portfolio = () => {
       <h2 className="text-center text-4xl mb-10 font-semibold text-sky-500">
         Portfolio
       </h2>
-      <div className="projects grid grid-cols-3 gap-8">
+      <div className="projects p-5 grid lg:grid-cols-3 md:grid-cols-2 gap-8">
         {portfolios.map((data) => (
           <ProjectCard data={data} key={data.id}></ProjectCard>
         ))}
