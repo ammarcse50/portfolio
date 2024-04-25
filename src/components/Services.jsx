@@ -22,7 +22,7 @@ const Services = () => {
             <h4>User Interface Design.</h4>
           </span>
           <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500" />
+            <VscDebugBreakpointLog className="text-sky-500 mb-6 sm:mb-0 mt-6 sm:mt-0" />
             <h4>Responsive web design for all devices.</h4>
           </span>
           <span className="flex items-center text-white">
@@ -30,14 +30,17 @@ const Services = () => {
             <h4>Component-based Architecture.</h4>
           </span>
           <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500" />
-            <h4>Performance Optimization using latest technologies.</h4>
+            <VscDebugBreakpointLog className="text-sky-500 mb-6 sm:mb-0 md:mb-6 " />
+            <h4>
+              Performance Optimization using <br />
+              latest technologies.
+            </h4>
           </span>
           <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500 mb-5" />
+            <VscDebugBreakpointLog className="text-sky-500 mb-12 md:mb-0 mt-6 sm:mt-0 md:mb-5 " />
             <h4>
-              Ensuring consistent performance through <br /> Cross-browser
-              Compatibility.
+              Ensuring consistent performance <br />
+             on Cross-browser Compatibility.
             </h4>
           </span>
           <span className="flex items-center text-white">
