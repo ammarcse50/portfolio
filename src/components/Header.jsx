@@ -47,10 +47,24 @@ const Header = () => {
         </p>
 
         <div className="social flex justify-center md:justify-start gap-6 ">
-          <FaLinkedin className="text-4xl text-sky-500 hover:text-[#00eeff]" />
-          <FaFacebook className="text-4xl text-sky-500 hover:text-[#00eeff]" />
-          <FaGithub className="text-4xl text-sky-500 hover:text-[#00eeff]" />
-          <FaWhatsapp className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+          <a href="https://www.linkedin.com/in/mohammad-ammar-96b551254/">
+          
+            <FaLinkedin className="text-4xl text-sky-500 hover:text-[#00eeff]" />{" "}
+          </a>
+
+          <a href="https://www.facebook.com/profile.php?id=61551789883517">
+          
+            <FaFacebook className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+          </a>
+          <a href="https://github.com/ammarcse50">
+          
+            <FaGithub className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+          </a>
+
+          <a href="https://api.whatsapp.com/send?phone=8801883128299">
+          
+            <FaWhatsapp className="text-4xl text-sky-500 hover:text-[#00eeff]" />
+          </a>
         </div>
         <div>
           <a href="/resume.pdf" download={true}>
