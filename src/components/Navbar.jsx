@@ -4,38 +4,38 @@ import { Link } from "react-scroll";
   
 const Navbar = () => {
           
-
+       
   const navlinks = (
     <>
-      <Link to="/home">
+      <Link to="home">
         <li>
-          <a>Home</a>
+          <a className="hover:bg-[#00eeff] hover:text-black">Home</a>
         </li>{" "}
       </Link>
-      <Link to="/about">
+      <Link to="about">
         <li>
-          <a>About</a>
+          <a className="hover:bg-[#00eeff] hover:text-black">About Me</a>
         </li>{" "}
       </Link>
-      <Link to="/service">
+      <Link to="service">
         <li>
-          <a>Service</a>
+          <a className="hover:bg-[#00eeff] hover:text-black">Portfolio</a>
         </li>{" "}
       </Link>
-      <Link to="portfolio">
+      <Link to="service">
         <li>
-          <a>Portfolio</a>
+          <a className="hover:bg-[#00eeff] hover:text-black">Service</a>
         </li>{" "}
       </Link>
-      <Link to="/contact">
+      <Link to="contact">
         <li>
-          <a>Contact</a>
+          <a className="hover:bg-[#00eeff] hover:text-black">Contact</a>
         </li>{" "}
       </Link>
     </>
   );
   return (
-    <div className="navbar bg-base-100">
+    <div name="home" className="navbar bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

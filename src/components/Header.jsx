@@ -5,8 +5,8 @@ import { TypeAnimation } from "react-type-animation";
 const Header = () => {
   return (
     <div
-      name="home"
-      id="home"
+    
+      
       className="md:flex space-y-20   md:justify-between  items-center mt-20  "
     >
       <div className="md:w-1/2 space-y-9 text-center md:text-left">
