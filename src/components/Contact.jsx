@@ -3,39 +3,62 @@ import Swal from "sweetalert2";
 
 const Contact = () => {
      
-    const handleSubmitMessage = e =>{
+    const [result, setResult] = React.useState("");
 
-        e.preventDefault()
-           
+    const handleSubmitMessage = async(event) =>{
 
-        const form = e.target;
+        event.preventDefault()
 
-         const name = form.name.value;
-         const email = form.email.value;
-         const message = form.message.value;
+        const formData = new FormData(event.target);
 
-         const data ={name,email,message}
-             
-         Swal.fire({
+        formData.append("access_key", "2e78d586-95c4-4cac-8549-780f82495b0b");
+    
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData
+        });
+    
+        const data = await response.json();
+    
+        if (data.success) {
+          setResult("Form Submitted Successfully");
+          Swal.fire({
             title: "Thanks for contacting!",
             text: "We got your message!",
             icon: "success"
           });
+          event.target.reset();
+        } else {
+          console.log("Error", data);
+          setResult(data.message);
+        }
+      };
+
+        // const form = e.target;
+
+        //  const name = form.name.value;
+        //  const email = form.email.value;
+        //  const message = form.message.value;
+
+        //  const data ={name,email,message}
+             
+        
 
 
-    }
+    
   return (
     <div className="pt-32 mb-10" name="contact">
       <h2 className="text-center text-4xl font-semibold text-sky-500">
        Contact Me
       </h2>
       <div>
-      <form onSubmit={handleSubmitMessage} className="card-body w-1/2 mx-auto">
+      <form onSubmit={handleSubmitMessage} className="card-body w-1/2 mx-auto" >
         <h2 className="text-white mb-10">Feel free to inquire or connect via my social accounts for any queries..</h2>
         <div className="form-control">
           <label className="label">
             <span className="label-text">Name</span>
           </label>
+         
           <input type="name" name="name" placeholder="Your Name" className="input input-bordered hover:outline hover:outline-[#00eeff] outline outline-1 text-white" required />
         </div>
         <div className="form-control">
@@ -52,7 +75,7 @@ const Contact = () => {
          
         </div>
         <div className="form-control mt-6">
-          <button className="btn btn-primary text-xl hover:outline hover:outline-white hover:bg-[#00eeff]">Contact</button>
+          <button type="submit" className="btn btn-primary text-xl hover:outline hover:outline-white hover:bg-[#00eeff]">Contact</button>
         </div>
       </form>
 
