@@ -7,11 +7,13 @@ import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import ScrollToTop from "react-scroll-to-top";
-import { FaBold } from "react-icons/fa";
+
 
 function App() {
   return (
+   
     <div>
+       
       <div className=""> <Navbar></Navbar></div>
      
       <div className="max-w-6xl mx-auto">
@@ -30,7 +32,9 @@ function App() {
   
   // Add more styles as needed
 }} smooth />
+
     </div>
+  
   );
 }
 
