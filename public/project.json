@@ -5,14 +5,14 @@
     "link1": "https://github.com/ammarcse50/mahad-al-hind-client",
     "link2": "https://mahad-al-hind.web.app/",
     "title": "Mahad Al Hind",
-    "desc": "FullStack"
+    "desc": "Frontedn + Backend"
   },
   {
     "id": 2,
-    "img": "https://img.freepik.com/free-vector/protecting-planet-earth-from-global-warming-illustration_53876-32688.jpg?w=740&t=st=1714070921~exp=1714071521~hmac=88f07de884b616ebc0751841eb5948ade212ef8293ea5c5e9991ae46c991a528",
+    "img": "project2.png",
     "link1": "https://example.com/link1",
     "link2": "https://example.com/link2",
-    "title": "Project 2",
+    "title": "Password Manager",
     "desc": "Description of Project 2."
   },
   {
@@ -23,4 +23,4 @@
     "title": "Project 3",
     "desc": "Description of Project 3."
   }
-]
+] 
