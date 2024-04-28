@@ -10,10 +10,10 @@
   {
     "id": 2,
     "img": "project2.png",
-    "link1": "https://example.com/link1",
-    "link2": "https://example.com/link2",
+    "link1": "https://passstore-18383.web.app/",
+    "link2": "https://github.com/ammarcse50/password-manager-server",
     "title": "Password Manager",
-    "desc": "Description of Project 2."
+    "desc": "Frontend + Backend"
   },
   {
     "id": 3,
