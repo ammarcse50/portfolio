@@ -5,7 +5,7 @@
     "link1": "https://github.com/ammarcse50/mahad-al-hind-client",
     "link2": "https://mahad-al-hind.web.app/",
     "title": "Mahad Al Hind",
-    "desc": "Frontedn + Backend"
+    "desc": "Frontend"
   },
   {
     "id": 2,
@@ -21,6 +21,6 @@
     "link1": "https://todo-227c5.web.app/",
     "link2": "https://github.com/ammarcse50/todo-client",
     "title": "My Todos",
-    "desc": "Frontedn + Backend"
+    "desc": "Frontend + Backend"
   }
 ] 
