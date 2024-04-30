@@ -3,7 +3,7 @@ import Swal from "sweetalert2";
 
 const Contact = () => {
      
-    const [result, setResult] = React.useState("");
+    // const [result, setResult] = React.useState("");
 
     const handleSubmitMessage = async(event) =>{
 
@@ -21,7 +21,7 @@ const Contact = () => {
         const data = await response.json();
     
         if (data.success) {
-          setResult("Form Submitted Successfully");
+          
           Swal.fire({
             title: "Thanks for contacting!",
             text: "We got your message!",
@@ -30,20 +30,11 @@ const Contact = () => {
           event.target.reset();
         } else {
           console.log("Error", data);
-          setResult(data.message);
+         
         }
       };
 
-        // const form = e.target;
-
-        //  const name = form.name.value;
-        //  const email = form.email.value;
-        //  const message = form.message.value;
-
-        //  const data ={name,email,message}
-             
-        
-
+   
 
     
   return (

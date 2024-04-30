@@ -17,10 +17,10 @@
   },
   {
     "id": 3,
-    "img": "https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=1060&t=st=1714070938~exp=1714071538~hmac=5595e025a1fee36bef1a2a1c7fe0c49318a31c0d8a6446da26909594843cfec4",
-    "link1": "https://example.com/link1",
-    "link2": "https://example.com/link2",
-    "title": "Project 3",
-    "desc": "Description of Project 3."
+    "img": "/todo.png",
+    "link1": "https://todo-227c5.web.app/",
+    "link2": "https://github.com/ammarcse50/todo-client",
+    "title": "My Todos",
+    "desc": "Frontedn + Backend"
   }
 ] 

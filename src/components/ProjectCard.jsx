@@ -9,10 +9,10 @@ const ProjectCard = ({ data }) => {
         <h2 className="card-title">{data.title}</h2>
         <p className="text-lg font-semibold">{data.desc}</p>
         <div className=" flex justify-between">
-          <a href="https://mahad-al-hind.web.app/">
+          <a href={link1}>
             <button className="btn bg-[#0ea5e9] text-black hover:bg-[#00eeff]">Demo</button>
           </a>
-          <a href={link1}>
+          <a href={link2}>
             <button className="btn bg-[#0ea5e9] text-black hover:bg-[#00eeff]">Code</button>
           </a>
         </div>
