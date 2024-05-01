@@ -66,7 +66,7 @@ const Contact = () => {
          
         </div>
         <div className="form-control mt-6">
-          <button type="submit" className="btn btn-primary text-xl hover:outline hover:outline-white hover:bg-[#00eeff]">Contact</button>
+          <button type="submit" className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">Contact</button>
         </div>
       </form>
 

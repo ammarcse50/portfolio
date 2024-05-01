@@ -10,10 +10,10 @@ const ProjectCard = ({ data }) => {
         <p className="text-lg font-semibold">{data.desc}</p>
         <div className=" flex justify-between">
           <a href={link1}>
-            <button className="btn bg-[#0ea5e9] text-black hover:bg-[#00eeff]">Demo</button>
+            <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">Demo</button>
           </a>
           <a href={link2}>
-            <button className="btn bg-[#0ea5e9] text-black hover:bg-[#00eeff]">Code</button>
+            <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">Code</button>
           </a>
         </div>
         <div className=""></div>
