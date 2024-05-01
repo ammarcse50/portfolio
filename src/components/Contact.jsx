@@ -43,7 +43,7 @@ const Contact = () => {
        Contact Me
       </h2>
       <div>
-      <form onSubmit={handleSubmitMessage} className="card-body w-1/2 mx-auto" >
+      <form onSubmit={handleSubmitMessage} className="card-body md:w-1/2 mx-auto" >
         <h2 className="text-white mb-10">Feel free to inquire or connect via my social accounts for any queries..</h2>
         <div className="form-control">
           <label className="label">
