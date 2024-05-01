@@ -16,11 +16,11 @@ import {
   IoLogoNpm,
 } from "react-icons/io";
 
-import { IoLogoFirebase, IoTerminal } from "react-icons/io5";
+import { IoLogoFirebase} from "react-icons/io5";
 import { SiAdobephotoshop, SiMongodb } from "react-icons/si";
 import { TbBrandJavascript, TbBrandVscode } from "react-icons/tb";
 import { FiFigma } from "react-icons/fi";
-import { FcLinux } from "react-icons/fc";
+
 import { DiLinux } from "react-icons/di";
 
 const About = () => {
