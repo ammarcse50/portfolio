@@ -2,25 +2,28 @@
   {
     "id": 1,
     "img": "mahad.png",
-    "link1": "https://github.com/ammarcse50/mahad-al-hind-client",
-    "link2": "https://mahad-al-hind.web.app/",
+    "link1": "https://mahad-al-hind.web.app/",
+    "link2": "https://github.com/ammarcse50/mahad-al-hind-client",
+    "link3": "https://github.com/ammarcse50/mahad-al-hind-server",
     "title": "Mahad Al Hind",
-    "desc": "Frontend"
+    "desc": "Frontend+Backend"
   },
   {
     "id": 2,
     "img": "project2.png",
     "link1": "https://passstore-18383.web.app/",
-    "link2": "https://github.com/ammarcse50/password-manager-server",
+    "link2": "https://github.com/ammarcse50/password-manager-client",
+    "link3": "https://github.com/ammarcse50/password-manager-server",
     "title": "Password Manager",
     "desc": "Frontend + Backend"
   },
   {
     "id": 3,
-    "img": "/todo.png",
-    "link1": "https://todo-227c5.web.app/",
-    "link2": "https://github.com/ammarcse50/todo-client",
-    "title": "My Todos",
+    "img": "todo.png",
+    "link1": "https://foodparadise-9f663.web.app/",
+    "link2": "https://github.com/ammarcse50/foodparadise-client-payment",
+    "link3": "https://github.com/ammarcse50/foodparadise-server-payment",
+    "title": "Foodparadise Restaurant",
     "desc": "Frontend + Backend"
   }
 ] 

@@ -67,7 +67,7 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <a href="/Mohammad Ammar Uddin - MERN Stack Web Developer (Resume).pdf" download={true}>
+          <a href="/Mohammad_Ammar_Uddin_Resume.pdf" download={true}>
             <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">
               Download CV
             </button>

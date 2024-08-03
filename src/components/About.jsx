@@ -60,7 +60,7 @@ const About = () => {
             <hr className="pb-5" />
           </span>
           <p className="text-white md:text-left">
-            B.Sc Honours (4th year) in Computer Science & Engineering <br />
+            B.Sc Honours (Graduating Soon) in Computer Science & Engineering <br />
             International Islamic University Chittagong
           </p>
         </div>

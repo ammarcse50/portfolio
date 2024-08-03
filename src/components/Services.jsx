@@ -1,13 +1,15 @@
 import React from "react";
 import { VscDebugBreakpointLog } from "react-icons/vsc";
 
+import { FaFontAwesome } from "react-icons/fa";
+
 const Services = () => {
   return (
     <div name="services" className="pt-32 p-4">
       <h2 className="text-center text-4xl mb-10 font-semibold text-sky-500">
         My Services
       </h2>
-      
+
       <span>
         <hr className="mb-6" />
       </span>
@@ -18,73 +20,153 @@ const Services = () => {
             Frontend Services
           </h2>
 
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500" />
+          <div className="flex items-center text-white">
+            <svg
+              className="text-sky-500"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+            </svg>
+
             <h4>User Interface Design.</h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500 mb-6 sm:mb-0 mt-6 sm:mt-0" />
-            <h4>Responsive web design for all devices.</h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500" />
+          </div>
+          <div className="flex   text-white">
+            <svg
+              className="text-sky-500 mt-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+            </svg>
+            Responsive web design for <br /> all devices.
+          </div>
+          <div className="flex  text-white">
+            <svg
+              className="text-sky-500 mt-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+            </svg>
             <h4>Component-based Architecture.</h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500 mb-6 sm:mb-0 md:mb-6 " />
+          </div>
+          <div className="flex  text-white">
+            <svg
+              className="text-sky-500 mt-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+            </svg>
             <h4>
               Performance Optimization using <br />
               latest technologies.
             </h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500 mb-12 md:mb-0 mt-6 sm:mt-0 md:mb-5 " />
+          </div>
+          <div className="flex  text-white">
+            <svg
+              className="text-sky-500 mt-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+            </svg>
             <h4>
               Ensuring consistent performance <br />
-             on Cross-browser Compatibility.
+              on Cross-browser Compatibility.
             </h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500" />
+          </div>
+          <div className="flex items-center text-white">
+            <svg
+              className="text-sky-500"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+            </svg>
             <h4>Accessibility</h4>
-          </span>
+          </div>
         </div>
         <div className="lg:w-1/2 h-full w-full  hover:outline hover:outline-[#00eeff] bg-gray-700 p-5 rounded-t-lg space-y-2">
           <h2 className="text-sky-500 text-3xl font-semibold mb-6">
             Backend Services
           </h2>
 
-          <span className="flex text-white">
-            <VscDebugBreakpointLog className="text-sky-500  mt-1" />
-            Restful api development and ensuring good <br /> communication
-            through frontend and backend.
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500 " />
-            <h4>Database design and implementation.</h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500 " />
-            <h4>Server-side logic implementation.</h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500  mb-6" />
-            <h4>
+          <div className="flex inline-block  text-white">
+            <svg
+              className="text-sky-500 mt-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+            </svg>
+            <span className="">
+              Restful api development .
+            </span>
+          </div>
+          <div className="flex inline-block text-white">
+            <svg
+              className="text-sky-500 mt-1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path>
+            </svg>
+            <span className="">
+             Ensuring good communication.
+            </span>
+          </div>
+          <div className="flex  text-white">
+          <svg className="text-sky-500 mt-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path></svg>
+            <span className="">Database design and implementation.</span>
+          </div>
+          <div className="flex  text-white">
+          <svg className="text-sky-500 mt-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path></svg>
+            <span>Server-side logic implementation.</span>
+          </div>
+          <div className="flex  text-white">
+          <svg className="text-sky-500 mt-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path></svg>
+            <span>
               Authentication & authorization & <br /> implementing security by
               pentesting web{" "}
-            </h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500 " />
-            <h4>Data security ensuring environment variables .</h4>
-          </span>
-          <span className="flex items-center text-white">
-            <VscDebugBreakpointLog className="text-sky-500 mb-6" />
-            <h4>
+            </span>
+          </div>
+          <div className="flex  text-white">
+          <svg className="text-sky-500 mt-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path></svg>
+            <span>Data security ensuring environment variables .</span>
+          </div>
+          <div className="flex  text-white">
+          <svg className="text-sky-500 mt-1" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor"><path d="M4 3H20C20.5523 3 21 3.44772 21 4V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3ZM11.0026 16L18.0737 8.92893L16.6595 7.51472L11.0026 13.1716L8.17421 10.3431L6.75999 11.7574L11.0026 16Z"></path></svg>
+            <span>
               Scalability and performance optimization
               <br /> implementing raw code
-            </h4>
-          </span>
+            </span>
+          </div>
         </div>
       </div>
     </div>

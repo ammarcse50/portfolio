@@ -1,5 +1,5 @@
 const ProjectCard = ({ data }) => {
-  const { img, title, desc, link1, link2 } = data;
+  const { img, title, desc, link1, link2,link3 } = data;
   return (
     <div className="card card-compact border  xl:p-3 bg-base-100 shadow-xl hover:shadow-lg hover:shadow-[#00eeff] ">
       <figure>
@@ -13,7 +13,10 @@ const ProjectCard = ({ data }) => {
             <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">Demo</button>
           </a>
           <a href={link2}>
-            <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">Code</button>
+            <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">Client</button>
+          </a>
+          <a href={link3}>
+            <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">Server</button>
           </a>
         </div>
         <div className=""></div>
