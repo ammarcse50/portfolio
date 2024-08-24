@@ -3,33 +3,33 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const navlinks = (
     <>
-      <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>
+      <Link to="home" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-100} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">Home</a>
         </li>{" "}
       </Link>
-      <Link to="about" spy={true} smooth={true} offset={-30} duration={500}>
+      <Link to="about" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-30} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
             About Me
           </a>
         </li>{" "}
       </Link>
-      <Link to="services" spy={true} smooth={true} offset={-30} duration={500}>
+      <Link to="services" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-30} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
             Services
           </a>
         </li>{" "}
       </Link>
-      <Link to="portfolio" spy={true} smooth={true} offset={-10} duration={500}>
+      <Link to="portfolio" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-10} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
             Portfolio
           </a>
         </li>{" "}
       </Link>
-      <Link to="contact" spy={true} smooth={true} offset={-10} duration={500}>
+      <Link to="contact" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-10} duration={500}>
         <li>
           <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
             Contact

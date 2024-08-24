@@ -1,7 +1,10 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const ProjectCard = ({ data }) => {
   const { img, title, desc, link1, link2,link3 } = data;
   return (
-    <div className="card card-compact border  xl:p-3 bg-base-100 shadow-xl hover:shadow-lg hover:shadow-[#00eeff] ">
+    <div data-aos="fade-up" data-aos-duration="1000" className="card card-compact border  xl:p-3 bg-base-100 shadow-xl hover:shadow-lg hover:shadow-[#00eeff] ">
       <figure>
         <img src={data.img} className="" />
       </figure>

@@ -1,6 +1,7 @@
-import React from "react";
 import Swal from "sweetalert2";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Contact = () => {
      
     // const [result, setResult] = React.useState("");
@@ -42,7 +43,7 @@ const Contact = () => {
       <h2 className="text-center text-4xl font-semibold text-sky-500">
        Contact Me
       </h2>
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000">
       <form onSubmit={handleSubmitMessage} className="card-body md:w-1/2 mx-auto" >
         <h2 className="text-white mb-10">Feel free to inquire or connect via my social accounts for any queries..</h2>
         <div className="form-control">

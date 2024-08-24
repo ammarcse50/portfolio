@@ -25,5 +25,14 @@
     "link3": "https://github.com/ammarcse50/foodparadise-server-payment",
     "title": "Foodparadise Restaurant",
     "desc": "Frontend + Backend"
+  },
+  {
+    "id": 4,
+    "img": "netflix.png",
+    "link1": "https://neflix-clone-firebase.netlify.app",
+    "link2": "https://github.com/ammarcse50/netflix-clone",
+    "link3": "https://github.com/ammarcse50/netflix-clone",
+    "title": "Netflix Clone",
+    "desc": "Frontend"
   }
-] 
+]
