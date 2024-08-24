@@ -12,7 +12,7 @@ const Header = () => {
       className="md:flex space-y-20   md:justify-between  items-center pt-20 mb-10  "
     >
       <div
-        data-aos="fade-right"
+        data-aos="fade-right"  data-aos-duration="1000"
         className="md:w-1/2 md:p-4 space-y-9 text-center md:text-left"
       >
         <h2 className="lg:text-2xl text-3xl font-bold text-white">
@@ -78,7 +78,7 @@ const Header = () => {
           </a>
         </div>
       </div>
-      <div data-aos="fade-left" className="md:w-1/3 p-5 mx-auto ">
+      <div data-aos="fade-left" data-aos-duration="1000" className="md:w-1/3 p-5 mx-auto ">
         <img src={dp} className="" alt="" />
       </div>
     </div>

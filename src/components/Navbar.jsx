@@ -5,33 +5,33 @@ const Navbar = () => {
     <>
       <Link to="home" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-100} duration={500}>
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">Home</a>
+          <a className=" text-2xl">Home</a>
         </li>{" "}
       </Link>
-      <Link to="about" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-30} duration={500}>
+      <Link to="about" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-40} duration={500}>
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
+          <a className=" text-2xl">
             About Me
           </a>
         </li>{" "}
       </Link>
-      <Link to="services" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-30} duration={500}>
+      <Link to="services" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-80} duration={500}>
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
+          <a className=" text-2xl">
             Services
           </a>
         </li>{" "}
       </Link>
-      <Link to="portfolio" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-10} duration={500}>
+      <Link to="portfolio" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-70} duration={500}>
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
+          <a className=" text-2xl">
             Portfolio
           </a>
         </li>{" "}
       </Link>
-      <Link to="contact" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-10} duration={500}>
+      <Link to="contact" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-50} duration={500}>
         <li>
-          <a className="hover:bg-[#00eeff] hover:text-black text-2xl">
+          <a className=" text-2xl">
             Contact
           </a>
         </li>{" "}

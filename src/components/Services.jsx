@@ -12,9 +12,9 @@ const Services = () => {
       <span>
         <hr className="mb-6" />
       </span>
-      <div data-aos="zoom-out-up" data-aos-duration="1000" className="lg:flex   p-3 lg:p-0   justify-between gap-3">
+      <div  className="lg:flex   p-3 lg:p-0   justify-between gap-3">
         {" "}
-        <div className="lg:w-1/2 mb-3 lg:mb-0  hover:outline hover:outline-[#00eeff] bg-gray-700 p-5 rounded-t-lg space-y-2">
+        <div data-aos="fade-up-right" data-aos-duration="1000" className="lg:w-1/2 mb-3 lg:mb-0  hover:outline hover:outline-[#00eeff] bg-gray-700 p-5 rounded-t-lg space-y-2">
           <h2 className="text-3xl font-semibold mb-6 text-sky-500">
             Frontend Services
           </h2>
@@ -105,7 +105,7 @@ const Services = () => {
             <h4>Accessibility</h4>
           </div>
         </div>
-        <div data-aos="zoom-out-down" data-aos-duration="1000" className="lg:w-1/2 h-full w-full  hover:outline hover:outline-[#00eeff] bg-gray-700 p-5 rounded-t-lg space-y-2">
+        <div data-aos="fade-up-left" data-aos-duration="1000" className="lg:w-1/2 h-full w-full  hover:outline hover:outline-[#00eeff] bg-gray-700 p-5 rounded-t-lg space-y-2">
           <h2 className="text-sky-500 text-3xl font-semibold mb-6">
             Backend Services
           </h2>

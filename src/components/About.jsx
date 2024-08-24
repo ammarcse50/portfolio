@@ -33,8 +33,8 @@ const About = () => {
       <h2 className="text-center text-4xl mb-10 font-semibold text-sky-500">
         About Me
       </h2>
-      <div data-aos="fade-right" data-aos-duration="1000" className="md:flex justify-between ">
-        <div className="md:w-1/2 text-center md:text-left md:mr-10 p-5 xl:p-0">
+      <div  className="md:flex justify-between ">
+        <div data-aos="fade-right" data-aos-duration="1000" className="md:w-1/2 text-center md:text-left md:mr-10 p-5 xl:p-0">
           <h2 className="lg:text-3xl text-2xl pb-1 font-semibold text-white">
             Mohammad Ammar Uddin
           </h2>
@@ -56,7 +56,7 @@ const About = () => {
         </div>
 
         <div data-aos="fade-left" data-aos-duration="1000"  className="md:w-1/2 pt-10 md:pt-0 md:text-left text-center lg:p-5 xl:p-0 md:p-0">
-          <h2 className="lg:text-3xl text-2xl pb-1 font-semibold text-white pb-8">
+          <h2 className="lg:text-3xl text-2xl  font-semibold text-white pb-8">
             Education
           </h2>
 
@@ -73,7 +73,7 @@ const About = () => {
       {/* TEXT END  */}
 
       <div  className="pt-20 lg:p-4 ">
-        <h2 className="lg:text-3xl text-center text-2xl pb-1 font-semibold text-white pb-8">
+        <h2 className="lg:text-3xl text-center text-2xl  font-semibold text-white pb-8">
           SKILLS
         </h2>
 
