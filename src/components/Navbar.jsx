@@ -3,39 +3,84 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const navlinks = (
     <>
-      <Link to="home" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-100} duration={500}>
+      <Link
+        to="home"
+        activeClass="bg-[#00eeff] text-black text-2xl rounded-lg"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+      >
         <li>
           <a className=" text-2xl">Home</a>
         </li>{" "}
       </Link>
-      <Link to="about" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-40} duration={500}>
+      <Link
+        to="about"
+        activeClass="bg-[#00eeff] text-black text-2xl rounded-lg"
+        spy={true}
+        smooth={true}
+        offset={-40}
+        duration={500}
+      >
         <li>
-          <a className=" text-2xl">
-            About Me
-          </a>
+          <a className=" text-2xl">About Me</a>
         </li>{" "}
       </Link>
-      <Link to="services" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-80} duration={500}>
+      <Link
+        to="experience"
+        activeClass="bg-[#00eeff] text-black text-2xl rounded-lg"
+        spy={true}
+        smooth={true}
+        offset={5}
+        duration={500}
+      >
         <li>
-          <a className=" text-2xl">
-            Services
-          </a>
+          <a className="text-2xl">Experience</a>
         </li>{" "}
       </Link>
-      <Link to="portfolio" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-70} duration={500}>
+      <Link
+        to="services"
+        activeClass="bg-[#00eeff] text-black text-2xl rounded-lg"
+        spy={true}
+        smooth={true}
+        offset={-80}
+        duration={500}
+      >
         <li>
-          <a className=" text-2xl">
-            Portfolio
-          </a>
+          <a className=" text-2xl">Services</a>
         </li>{" "}
       </Link>
-      <Link to="contact" activeClass="bg-[#00eeff] text-black text-2xl rounded-lg" spy={true} smooth={true} offset={-50} duration={500}>
+      <Link
+        to="portfolio"
+        activeClass="bg-[#00eeff] text-black text-2xl rounded-lg"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={500}
+      >
         <li>
-          <a className=" text-2xl">
-            Contact
-          </a>
+          <a className=" text-2xl">Portfolio</a>
         </li>{" "}
       </Link>
+      <Link
+        to="contact"
+        activeClass="bg-[#00eeff] text-black text-2xl rounded-lg"
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={500}
+      >
+        <li>
+          <a className=" text-2xl">Contact</a>
+        </li>{" "}
+      </Link>
+
+      <a className="hidden lg:block" href="/Mohammad_Ammar_Uddin_FullStackDeveloper.pdf" download={true}>
+        <button className="btn font-semibold hover:shadow-xl hover:shadow-[#00eeff] text-xl btn-outline border-[#00eeff] transition duration-1000 text-white  hover:bg-[#00eeff]">
+          Resume
+        </button>
+      </a>
     </>
   );
   return (
@@ -68,7 +113,7 @@ const Navbar = () => {
           </div>
           <a
             href="home"
-            className="px-3   hover:animate-pulse transition duration-1000 hover:text-[#00eeff] rounded-xl text-5xl font-bold font-signature text-sky-500 "
+            className="px-3 hover:animate-pulse transition duration-1000 hover:text-[#00eeff] rounded-xl text-5xl font-bold font-signature text-sky-500 "
           >
             A <span className="text-white ">mmar</span>
           </a>

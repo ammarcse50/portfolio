@@ -9,6 +9,8 @@ const Portfolio = () => {
     setVisibleCount((prev) => prev + 3);
   };
 
+  console.log("portfolios", portfolios);
+
   useEffect(() => {
     fetch("project.json")
       .then((res) => res.json())

@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import ScrollToTop from "react-scroll-to-top";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <div className="max-w-6xl mx-auto">
         <Header></Header>
         <About></About>
+        <Experience></Experience>
         <Services></Services>
         <Portfolio></Portfolio>
         <Contact></Contact>
