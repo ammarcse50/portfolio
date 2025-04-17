@@ -18,7 +18,7 @@ const Services = () => {
           data-aos-duration="1000"
           className="lg:w-1/2 mb-3 lg:mb-0  hover:outline hover:outline-[#00eeff] bg-gray-700 p-10 rounded-lg text-white space-y-2"
         >
-          <h2 className="text-3xl font-semibold mb-6 text-sky-500">
+          <h2 className="text-xl md:text-3xl font-semibold mb-6 text-sky-500">
             Frontend Services
           </h2>
           <div className="">
@@ -48,10 +48,9 @@ const Services = () => {
           data-aos-duration="1000"
           className="lg:w-1/2 h-full w-full  hover:outline hover:outline-[#00eeff] bg-gray-700 p-10 rounded-lg text-white space-y-2"
         >
-          <h2 className="text-sky-500 text-3xl font-semibold mb-6">
+          <h2 className="text-sky-500 text-xl md:text-3xl font-semibold mb-6">
             Backend Services
           </h2>
-
           <div className="">
             <span className="flex items-start">
               <SlActionRedo className="mr-2 mt-1 text-sky-500" />

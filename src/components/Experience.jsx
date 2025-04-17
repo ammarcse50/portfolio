@@ -4,22 +4,22 @@ const Experience = () => {
   return (
     <div name="experience" className="">
       <div>
-        <h2 className="font-bold xl:text-4xl pt-32 text-sky-500 text-center mb-4">
+        <h2 className="text-center text-4xl mb-10 font-semibold text-sky-500">
           Experience
         </h2>
         {/* <span>
           <hr className="mb-6" />
         </span> */}
         <div className="mx-auto md:w-9/12  bg-gray-700   p-10 rounded-lg text-white">
-          <div className="flex items-center justify-between">
+          <div className="md:flex items-center justify-between ">
             {" "}
-            <h2 className="font-bold md:text-xl">@Digital Lab</h2>
-            <p>Chittagong Bangladesh</p>
+            <h2 className="font-bold md:text-xl text-center md:block">@Digital Lab</h2>
+            <p className="text-center md:block">Chittagong Bangladesh</p>
           </div>
-          <div className="flex items-center justify-between mb-4">
+          <div className="md:flex items-center justify-between mb-4">
             {" "}
-            <h2 className="md:text-xl italic">Trainee Jr. Software Engineer</h2>
-            <p className="p-2 md:p-0">January 2025 – March 2025 </p>
+            <h2 className="md:text-xl italic text-center md:block">Trainee Jr. Software Engineer</h2>
+            <p className="text-center md:block">January 2025 – March 2025 </p>
           </div>
           <div className="">
             <span className="flex items-start">
